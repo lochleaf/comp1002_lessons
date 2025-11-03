@@ -406,3 +406,67 @@ a{
     height: 20px;
     color: white;  
 }
+.checkbox1-3{
+  position: absolute;
+    top: 55%;
+    left: 80%;
+    width: 20px;
+    height: 20px;  
+    color: white;
+}
+.checkbox2-3{
+  position: absolute;
+    top: 55%;
+    left: 45%;
+    width: 20px;
+    height: 20px; 
+    color: white; 
+}
+.checkbox3-3{
+  position: absolute;
+    top: 55%;
+    left: 25%;
+    width: 20px;
+    height: 20px; 
+    color: white; 
+} 
+.checkbox4-3{
+  position: absolute;
+    top: 55%;
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    color: white;  
+}
+.textcheckbox1-3{
+  position: absolute;
+    top: 55%;
+    left: 82%;
+    width: 20px;
+    height: 20px;  
+    color: white;
+}
+.textcheckbox2-3{
+  position: absolute;
+    top: 55%;
+    left: 47%;
+    width: 20px;
+    height: 20px; 
+    color: white; 
+}
+.textcheckbox3-3{
+  position: absolute;
+    top: 55%;
+    left: 27%;
+    width: 20px;
+    height: 20px; 
+    color: white; 
+} 
+.textcheckbox4-3{
+  position: absolute;
+    top: 55%;
+    left: 12%;
+    width: 20px;
+    height: 20px;
+    color: white;  
+}
