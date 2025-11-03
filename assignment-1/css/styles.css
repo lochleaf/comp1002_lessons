@@ -250,3 +250,31 @@ a{
     height: 20px;
     color: white;  
 }
+.tilepizzasize1{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 82%
+}
+.tilepizzasize2{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 67%
+}
+.tilepizzasize3{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 27%
+}
+.tilepizzasize4{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 12%
+}
