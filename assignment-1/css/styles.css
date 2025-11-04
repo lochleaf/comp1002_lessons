@@ -148,6 +148,7 @@ position: absolute;
  top: 60%;
  left: 70%;
  font-size: 100px;
+ color: aqua;
  }
 
 .page-title {
@@ -225,4 +226,12 @@ textarea {
   position: absolute;
   top: 5%;
   left: 91%;
+}
+
+.takeouttitle{
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: rotate(-25deg);
+
 }

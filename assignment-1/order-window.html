@@ -10,6 +10,12 @@
 	</head>
 <body>
   <h1 class="page-title">Select Pizza!!!</h1>
+<h3>Submit Order</h3>
+  <form action method="get">
+  <label for="emailAddress">Phone Number:</label>
+  <input type="tel" name="Phone" id="Phone" required>
+  <button type="submit" onclick="window.location.href='submit.html'">Submit</button>
+</form>
 
 <div class="pizza-menu">
   <!-- Pizza Option 1 -->
@@ -94,8 +100,6 @@
     <textarea id="message" name="message" rows="4" cols="50"></textarea>
   </div>
 </div>
-<label class="resettext"> Resset </label>
+<label class="resettext"> Reset </label>
 <button class="reset"></button> 
-<label class="submittext"> Submit </label>
-<button  class="submit" onclick="window.location.href='submit.html'"></button>
 </body>
