@@ -9,19 +9,28 @@
         <link rel="stylesheet" href="css/styles.css" />
 	</head>
         <body>
+            <!-- show message at the beginning when open the website -->
             <script>alert("MMMmmmm...Cheese...GOOD Choice!") </script>
+
+            <!-- show message after press ok and giving options to accept deal or not using if statement -->
             <script>
-            let response = confirm("🍕 New Deal Available! Do you want to accept it?");
+            let response = confirm("🍕 New Deal Available! Do you want to accept it?"); //message to ask deal
             if (response) {
-                        alert("Deal accepted!");
+                        alert("Deal accepted!");//message accepted deal
                     } else {
-                        alert("Deal declined?");
-                        alert("OH okay byeeee!")
+                        alert("Deal declined?");//message not accepted 
+                        alert("OH okay byeeee!")//another message pops up after
                         window.location.href = "https://www.google.com"; // kicks you out and re-direct you to another page
                     }
-            </script>
+            </script> 
+
+            <!-- title connect to the style.css file with file class to position it on the page correctly -->
             <h1 class="tilepizzaselection">Pizzas selection!</h1>
+
+            <!-- title connect to the style.css file with class to position it on the page correctly -->
             <h1 class="takeouttitle">TAKEOUT ONLY!</h1>
+
+            <!-- sourced images used for the page also connect to style.css file to make animations and positioning of the images -->
             <img src="images/logo-pizza.jpg" height="1050" weight="1050" class="pizzalogo"> 
             <img id="image_canv" src="images/heart-shaped-pizza.jpg" class="heartpizzarotate">
             <img id="image_canv" src="images/round-pizza-mix.jpg" class="roundpizzamixrotate">
@@ -29,7 +38,8 @@
             <img id="image_canv" src="images/squared-pizza.avif" class="squaredpizzarotate">
             <img id="image_canv" src="images/custom-pizza.jpg" class="custompizzarotate">
 
+            <!-- made link to link it to my other order-window. html file added class to position the link correctly on page -->
             <li><a href="order-window.html" title="PIZZA Options" class="potions-link">ORDER NOW!!</a></li>
 
         </body>
-</html>    
+</html>  <!-- end -->

@@ -6,104 +6,127 @@
 		<meta name="author" content="The name of the document’s author to go here" />
 		<meta name="description" content="A concise and accurate summary of the document content is to appear here">
 		<link rel="shortcut icon" href="images/icon-pizza.jpg" type="image/x-icon" />
-        <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 	</head>
     <body>
+      <!-- title page added class to position it on the page correctly and size it greatly -->
       <h1 class="page-title">Select Pizza!!!</h1>
+
+    <!-- button name -->
     <h3>Submit Order</h3>
+
+    <!-- made submit button that will take phone number and order and automatically reset the page when clicked -->
       <form action method="get">
         <label for="emailAddress">Phone Number:</label>
         <input type="tel" name="Phone" id="Phone" required>
         <button type="submit">Submit</button>
-        <!--<button type="submit" onclick="window.location.href='submit.html'">Submit</button>-->
       </form>
 
+      <!-- this the organized menu selections option part and position it correctly -->  
       <div class="pizza-menu">
-        <!-- Pizza Option 1 -->
+        
+        <!-- Heart Pizza Option 1 -->
         <div class="pizza-card">
           <img src="images/heart-shaped-pizza.jpg" alt="Heart Pizza">
           <h2>Heart Shaped Pizza</h2>
 
+          <!-- section checkbox of size of pizza -->
           <h3>Size of Pizza</h3>
           <label><input type="checkbox"> 2 Slices</label>
           <label><input type="checkbox"> 6 Slices</label>
           <label><input type="checkbox"> 8 Slices</label>
 
+          <!-- image of mixed pizza for option and added checkbox for choice -->
           <img src="images/round-pizza-mix.jpg" alt="Mixed Pizza">
           <h2>Mixed Pizza</h2>
           <label><input type="checkbox">Check for Yes</label>
 
+          <!-- section checkbox for the topping for the pizza -->
           <h3>Toppings</h3>
           <label><input type="checkbox"> Pepperoni</label>
           <label><input type="checkbox"> Mushrooms</label>
           <label><input type="checkbox"> Cheese</label>
         </div>
 
-        <!-- Pizza Option 2 -->
+          <!-- Round Pizza Option 2 -->
         <div class="pizza-card">
           <img src="images/round-pizza.webp" alt="Round Pizza">
           <h2>Round Pizza</h2>
 
+          <!-- section checkbox of size of pizza -->
           <h3>Size of Pizza</h3>
           <label><input type="checkbox"> 2 Slices</label>
           <label><input type="checkbox"> 6 Slices</label>
           <label><input type="checkbox"> 8 Slices</label>
 
+          <!-- image of mixed pizza for option and added checkbox for choice -->
           <img src="images/round-pizza-mix.jpg" alt="Mixed Pizza">
           <h2>Mixed Pizza</h2>
           <label><input type="checkbox">Check for Yes</label>
 
+          <!-- section checkbox for the topping for the pizza -->
           <h3>Toppings</h3>
           <label><input type="checkbox"> Pepperoni</label>
           <label><input type="checkbox"> Mushrooms</label>
           <label><input type="checkbox"> Cheese</label>
         </div>
 
-        <!-- Pizza Option 3 -->
+        <!-- Squared Pizza Option 3 -->
         <div class="pizza-card">
           <img src="images/squared-pizza.avif" alt="Square Pizza">
           <h2>Square Pizza</h2>
 
+          <!-- section checkbox of size of pizza -->
           <h3>Size of Pizza</h3>
           <label><input type="checkbox"> 2 Slices</label>
           <label><input type="checkbox"> 6 Slices</label>
           <label><input type="checkbox"> 8 Slices</label>
-
+           
+          <!-- image of mixed pizza for option and added checkbox for choice -->
           <img src="images/round-pizza-mix.jpg" alt="Mixed Pizza">
           <h2>Mixed Pizza</h2>
           <label><input type="checkbox">Check for Yes</label>
 
+          <!-- section checkbox for the topping for the pizza -->
           <h3>Toppings</h3>
           <label><input type="checkbox"> Pepperoni</label>
           <label><input type="checkbox"> Mushrooms</label>
           <label><input type="checkbox"> Cheese</label>
         </div>
 
-        <!-- Pizza Option 4 -->
+        <!-- Custom Pizza Option 4 -->
         <div class="pizza-card">
           <img src="images/custom-pizza.jpg" alt="custom Pizza">
           <h2>Custom Pizza</h2>
 
+           <!-- section checkbox of size of pizza -->
           <h3>Size of Pizza</h3>
           <label><input type="checkbox"> 2 Slices</label>
           <label><input type="checkbox"> 6 Slices</label>
           <label><input type="checkbox"> 8 Slices</label>
 
+          <!-- image of mixed pizza for option and added checkbox for choice -->
           <img src="images/round-pizza-mix.jpg" alt="Mixed Pizza">
           <h2>Mixed Pizza</h2>
           <label><input type="checkbox">Check for Yes</label>
 
+          <!-- section checkbox for the topping for the pizza -->
           <h3>Toppings</h3>
           <label><input type="checkbox"> Pepperoni</label>
           <label><input type="checkbox"> Mushrooms</label>
           <label><input type="checkbox"> Cheese</label>
+
+          <!-- tile of textarea -->
           <label for="custom extra">Custom Order:</label>
+
+          <!-- also made comment textbox for the custom orders -->
           <textarea id="message" name="message" rows="4" cols="50"></textarea>
         </div>
       </div>
+        <!-- reset button this will reload the page and reset for the options -->  
         <form action method="get">
           <label class="resettext"> Reset </label>
           <button type="submit" class="reset"></button> 
         </form>
     </body>
-</html>
+</html> <!-- end -->
